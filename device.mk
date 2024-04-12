@@ -10,6 +10,7 @@ TARGET_IS_VAB := true
 $(call inherit-product, vendor/bcr/bcr.mk)
 
 # Boot animation
+TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
