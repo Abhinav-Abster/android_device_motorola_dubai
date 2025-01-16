@@ -1,6 +1,6 @@
 # Common Device Tree
 rm -rf device/motorola/sm7325-common
-git clone https://github.com/Dubai-Resources/android_device_motorola_sm7325-common.git -b 15.0 device/motorola/sm7325-common --depth=1
+git clone https://github.com/Dubai-Resources/android_device_motorola_sm7325-common.git -b InfinityX device/motorola/sm7325-common --depth=1
 
 # Vendor Tree
 rm -rf vendor/motorola/dubai
@@ -20,7 +20,7 @@ git clone https://github.com/Dubai-Resources/hardware_motorola.git -b fifteen ha
 
 # Setup KSU-Next
 cd kernel/motorola/sm7325
-curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next-susfs/kernel/setup.sh" | bash -s next-susfs
+curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -
 cd ../../..
 
 # BCR
