@@ -49,6 +49,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DubaiCameraService
 
+$(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.dubai)
+
 # Dolby
 $(call inherit-product, hardware/motorola/dolby/setup.mk)
 

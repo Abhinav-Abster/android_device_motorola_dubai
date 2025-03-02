@@ -1,5 +1,6 @@
 //
 // SPDX-FileCopyrightText: 2023 ArrowOS
+// SPDX-FileCopyrightText: 2024 LibreMobileOS Foundation
 // SPDX-License-Identifier: Apache-2.0
 //
 
@@ -21,4 +22,12 @@ prebuilt_etc {
     src: "privapp-permissions-dubaicameraservice.xml",
     system_ext_specific: true,
     sub_dir: "permissions",
+}
+
+cc_library_static {
+    name: "libcameraservice_extension.dubai",
+    srcs: ["CameraProviderExtension.cpp"],
+    include_dirs: [
+        "frameworks/av/services/camera/libcameraservice/common"
+    ],
 }
