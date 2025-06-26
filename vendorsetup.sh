@@ -16,7 +16,7 @@ git clone https://github.com/Rakhshan7070/android_kernel_motorola_sm7325.git -b 
 
 # Hardware
 rm -rf hardware/motorola
-git clone https://github.com/RisingOS-Revived-devices/hardware_motorola.git -b fifteen hardware/motorola
+git clone https://github.com/Dubai-Resources/hardware_motorola.git -b fifteen hardware/motorola
 
 # Setup KSU-Next
 cd kernel/motorola/sm7325
