@@ -22,3 +22,7 @@ git clone https://github.com/Dubai-Resources/hardware_motorola.git -b fifteen ha
 cd kernel/motorola/sm7325
 curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next-susfs/kernel/setup.sh" | bash -s next-susfs
 cd ../../..
+
+# BCR
+rm -rf vendor/bcr
+git clone https://github.com/Chaitanyakm/vendor_bcr.git -b main vendor/bcr
