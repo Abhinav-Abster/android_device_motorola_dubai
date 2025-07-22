@@ -140,6 +140,9 @@
         <item>500</item>
     </integer-array>
 
+    <!-- Whether to enable fp unlock when screen turns off on udfps devices -->
+    <bool name="config_screen_off_udfps_enabled">true</bool>
+
     <!-- MMS user agent string -->
     <string name="config_mms_user_agent" translatable="false">motorolaedge30</string>
 
