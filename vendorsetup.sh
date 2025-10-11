@@ -12,7 +12,7 @@ git clone https://github.com/Dubai-Resources/proprietary_vendor_motorola_sm7325-
 
 # Kernel Tree
 rm -rf kernel/motorola/sm7325
-git clone https://github.com/Dubai-Resources/android_kernel_motorola_sm7325.git -b 15.0 kernel/motorola/sm7325 --depth=1
+git clone https://github.com/Dubai-Resources/android_kernel_motorola_sm7325.git -b 16.0 kernel/motorola/sm7325 --depth=1
 
 # Hardware
 rm -rf hardware/motorola
