@@ -36,3 +36,6 @@ TARGET_HAS_UDFPS := true
 WITH_GAPPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Perf Activity Anim Override
+PERF_ANIM_OVERRIDE := true
