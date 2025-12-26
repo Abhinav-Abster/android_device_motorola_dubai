@@ -88,13 +88,6 @@ PRODUCT_COPY_FILES += \
 # Priv-Keys
 -include vendor/infinity-priv/keys/keys.mk
 
-# Sensors
-PRODUCT_PACKAGES += \
-    sensors.dubai
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
-
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
