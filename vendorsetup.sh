@@ -4,11 +4,11 @@ git clone https://github.com/Dubai-Resources/android_device_motorola_sm7325-comm
 
 # Vendor Tree
 rm -rf vendor/motorola/dubai
-git clone https://github.com/Dubai-Resources/proprietary_vendor_motorola_dubai.git -b lineage-23.0 vendor/motorola/dubai --depth=1
+git clone https://github.com/Dubai-Resources/proprietary_vendor_motorola_dubai.git -b lineage-23.1 vendor/motorola/dubai --depth=1
 
 # Common Vendor Tree
 rm -rf vendor/motorola/sm7325-common
-git clone https://github.com/Dubai-Resources/proprietary_vendor_motorola_sm7325-common.git -b lineage-23.0 vendor/motorola/sm7325-common --depth=1
+git clone https://github.com/Dubai-Resources/proprietary_vendor_motorola_sm7325-common.git -b lineage-23.1 vendor/motorola/sm7325-common --depth=1
 
 # Kernel Tree
 rm -rf kernel/motorola/sm7325
