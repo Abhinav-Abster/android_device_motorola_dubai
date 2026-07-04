@@ -88,7 +88,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml
 
 # Priv-Keys
--include vendor/infinity-priv/keys/keys.mk
+#-include vendor/infinity-priv/keys/keys.mk
+
+# OTA
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    lineage.updater.uri=https://raw.githubusercontent.com/Abhinav-Abster/ota-dubai/refs/heads/main/lunaris.json
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
